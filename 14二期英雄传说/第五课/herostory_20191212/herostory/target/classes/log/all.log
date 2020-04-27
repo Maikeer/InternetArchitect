@@ -1,0 +1,97 @@
+[23:31:05,120] [INFO] CmdHandlerFactory.init --> ==== 完成 Cmd 和 Handler 的关联 ====
+[23:31:05,438] [INFO] GameMsgRecognizer.init --> ==== 完成 MsgBody 和 MsgCode 的关联 ====
+[23:31:06,091] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserDieResult <==> 12
+[23:31:06,117] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserSubtractHpResult <==> 11
+[23:31:06,127] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserAttkResult <==> 10
+[23:31:06,136] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd <==> 9
+[23:31:06,206] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserStopResult <==> 8
+[23:31:06,214] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserStopCmd <==> 7
+[23:31:06,227] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserQuitResult <==> 6
+[23:31:06,234] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToResult <==> 5
+[23:31:06,242] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd <==> 4
+[23:31:06,313] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereResult <==> 3
+[23:31:06,321] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd <==> 2
+[23:31:06,329] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserEntryResult <==> 1
+[23:31:06,407] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd <==> 0
+[23:31:12,865] [INFO] ServerMain.main --> 服务器启动成功!
+[23:31:31,612] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd, msg = userId: 1
+heroAvatar: "Hero_Hammer"
+
+[23:31:31,612] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd, msg = userId: 2
+heroAvatar: "Hero_Shaman"
+
+[23:31:31,615] [ERROR] GameMsgHandler.channelRead0 --> 未找到相对应的指令处理器, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd
+[23:31:31,617] [ERROR] GameMsgHandler.channelRead0 --> 未找到相对应的指令处理器, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd
+[23:31:31,623] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd, msg = 
+[23:31:31,624] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd, msg = 
+[23:31:31,625] [ERROR] GameMsgHandler.channelRead0 --> 未找到相对应的指令处理器, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd
+[23:31:31,627] [ERROR] GameMsgHandler.channelRead0 --> 未找到相对应的指令处理器, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd
+[23:31:41,050] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd, msg = targetUserId: 4294967295
+
+[23:31:41,051] [ERROR] GameMsgHandler.channelRead0 --> 未找到相对应的指令处理器, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd
+[23:31:42,066] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd, msg = targetUserId: 4294967295
+
+[23:31:42,066] [ERROR] GameMsgHandler.channelRead0 --> 未找到相对应的指令处理器, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd
+[23:31:45,244] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd, msg = moveToPosX: 211.47131
+moveToPosY: -51.870323
+
+[23:31:45,244] [ERROR] GameMsgHandler.channelRead0 --> 未找到相对应的指令处理器, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd
+[23:33:10,150] [INFO] CmdHandlerFactory.init --> ==== 完成 Cmd 和 Handler 的关联 ====
+[23:33:10,396] [INFO] GameMsgRecognizer.init --> ==== 完成 MsgBody 和 MsgCode 的关联 ====
+[23:33:10,655] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserDieResult <==> 12
+[23:33:10,665] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserSubtractHpResult <==> 11
+[23:33:10,673] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserAttkResult <==> 10
+[23:33:10,684] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd <==> 9
+[23:33:10,701] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserStopResult <==> 8
+[23:33:10,706] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserStopCmd <==> 7
+[23:33:10,717] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserQuitResult <==> 6
+[23:33:10,722] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToResult <==> 5
+[23:33:10,738] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd <==> 4
+[23:33:10,755] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereResult <==> 3
+[23:33:10,763] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd <==> 2
+[23:33:10,769] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserEntryResult <==> 1
+[23:33:10,775] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd <==> 0
+[23:33:13,174] [INFO] ServerMain.main --> 服务器启动成功!
+[23:33:21,333] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd, msg = userId: 1
+heroAvatar: "Hero_Hammer"
+
+[23:33:21,334] [ERROR] GameMsgHandler.channelRead0 --> 未找到相对应的指令处理器, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd
+[23:33:21,336] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd, msg = 
+[23:33:21,337] [ERROR] GameMsgHandler.channelRead0 --> 未找到相对应的指令处理器, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd
+[23:33:31,530] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd, msg = userId: 2
+heroAvatar: "Hero_Shaman"
+
+[23:33:31,532] [ERROR] GameMsgHandler.channelRead0 --> 未找到相对应的指令处理器, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd
+[23:33:31,533] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd, msg = 
+[23:33:31,534] [ERROR] GameMsgHandler.channelRead0 --> 未找到相对应的指令处理器, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd
+[23:33:33,721] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd, msg = moveToPosX: -88.57855
+moveToPosY: -80.5985
+
+[23:33:33,721] [ERROR] GameMsgHandler.channelRead0 --> 未找到相对应的指令处理器, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd
+[23:33:34,617] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd, msg = moveFromPosX: -89.693825
+moveFromPosY: -81.138176
+moveToPosX: 114.114716
+moveToPosY: 3.990025
+
+[23:33:34,617] [ERROR] GameMsgHandler.channelRead0 --> 未找到相对应的指令处理器, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd
+[23:33:34,706] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd, msg = moveFromPosX: -76.88474
+moveFromPosY: -68.329094
+moveToPosX: 114.114716
+moveToPosY: 3.990025
+
+[23:33:34,706] [ERROR] GameMsgHandler.channelRead0 --> 未找到相对应的指令处理器, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd
+[23:33:36,196] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd, msg = targetUserId: 4294967295
+
+[23:33:36,196] [ERROR] GameMsgHandler.channelRead0 --> 未找到相对应的指令处理器, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd
+[23:33:36,446] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd, msg = targetUserId: 4294967295
+
+[23:33:36,446] [ERROR] GameMsgHandler.channelRead0 --> 未找到相对应的指令处理器, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd
+[23:33:36,775] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd, msg = targetUserId: 4294967295
+
+[23:33:36,775] [ERROR] GameMsgHandler.channelRead0 --> 未找到相对应的指令处理器, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd
+[23:34:18,492] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd, msg = userId: 2
+heroAvatar: "Hero_Shaman"
+
+[23:34:18,492] [ERROR] GameMsgHandler.channelRead0 --> 未找到相对应的指令处理器, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd
+[23:34:18,493] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd, msg = 
+[23:34:18,494] [ERROR] GameMsgHandler.channelRead0 --> 未找到相对应的指令处理器, msgClazz = org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd

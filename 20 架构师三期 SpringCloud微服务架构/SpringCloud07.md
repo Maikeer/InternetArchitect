@@ -119,7 +119,7 @@ zuul.routes.consumer=/xxoo/**
 
 配置前先访问，然后做对比。
 
-2.自定义映射
+2.自定义映射  自定义转发
 
 ```
 
@@ -448,7 +448,16 @@ spring.boot.admin.client.url=http://localhost:8080
    spring.boot.admin.notify.mail.to: 2634982208@qq.com   
    # 发件邮箱
    spring.boot.admin.notify.mail.from: xxxxxxx@qq.com   
+   
+   
+   spring.mail.host=smtp.qq.com
+   spring.mail.username=550845306
+   spring.mail.password=twoygnjqmdeubfhc
+   spring.mail.properties.mail.smpt.auth=true
+   spring.mail.properties.mail..smpt.starttls.enable=true
+   spring.mail.properties.mail..smpt.starttls.required=true
    ```
+
 
 
 ### 钉钉群通知
